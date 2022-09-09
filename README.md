@@ -1,6 +1,10 @@
 # Structure-CI
-* Implementation of running Social group network, Resnet and ER/BA/WS network
-* Results(**num of paths and performance**) are saved in **results.xlsx**
+Implementation of running Social group network, Resnet and ER/BA/WS network 
+
+Results(**num of paths and performance**) are saved in **results.xlsx**
+
+### Data preparation
+* Download [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz) then put the folder to the **randwire/data, resnet/data, socialnet/data** 
 ### Social group network
 
 ### Resnet

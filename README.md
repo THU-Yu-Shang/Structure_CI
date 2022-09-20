@@ -6,7 +6,12 @@ Results(**num of paths and performance**) are saved in **results.xlsx**
 ### Data preparation
 * Download [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz) then put the folder to the **randwire/data, resnet/data, socialnet/data** 
 ### Social group network
-
+* Run training of Socialgroup network 
+```
+cd socialnet
+python main3.py --alpha 1 --modularity 4 --gs 0
+```
+* Parameter setting: change giniA by **alpha**; change giniB by **gs**(generally set as 0); change num of subgroup by **modularity** 
 ### Resnet
 * Run training of Resnet
 ```

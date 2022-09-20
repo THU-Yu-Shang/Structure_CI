@@ -11,7 +11,8 @@ Results(**num of paths and performance**) are saved in **results.xlsx**
 cd socialnet
 python main3.py --alpha 1 --modularity 4 --gs 0
 ```
-* Parameter setting: change giniA by **alpha**; change giniB by **gs**(generally set as 0); change num of subgroup by **modularity** 
+* When exploring unevenness of speaking turns, set **modularity=4**, change giniA by **alpha**; change giniB by **gs**(generally set as 0).
+* When exploring modularity, set **alpha=1** and **gs=1**, change num of subgroup by **modularity** 
 * Note: In Socialgroup network, num of paths can be calculated by multiplication of adjacency matrix of different rounds.
 ### Resnet
 * Run training of Resnet
